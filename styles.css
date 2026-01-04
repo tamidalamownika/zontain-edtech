@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: #22c55e;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.features,
+.content,
+.cta-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features ul,
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li,
+.content li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* ===== QR + Play Store Layout ===== */
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.qr-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 260px;
+  margin: auto;
+}
+
+.qr-box img {
+  width: 200px;
+  height: 200px;
+}
+
+.qr-text {
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.cta-stack {
+  margin-top: 30px;
+}
+
+.play-badge {
+  width: 220px;
+  max-width: 100%;
+}
+
+.text-cta {
+  display: block;
+  margin-top: 12px;
+  color: #22c55e;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.text-cta:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .qr-box {
+    margin-top: 30px;
+  }
+}
